@@ -21,4 +21,5 @@ home = ["HTML", "RSS"]
 
 [params]
 custom_css = ["css/custom.css"]
-landingPageURL = "123"
+landingPageName = "首页"
+landingPageURL = "/Cloud189AutoSaveProDoc/"
