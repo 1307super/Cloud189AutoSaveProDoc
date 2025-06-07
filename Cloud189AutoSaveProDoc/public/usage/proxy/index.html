@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="zh-cn" class="js csstransforms3d">
+  <head><script src="/Cloud189AutoSaveProDoc/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=Cloud189AutoSaveProDoc/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.147.7">
+    <meta name="description" content="">
+
+
+    <link rel="icon" href="/Cloud189AutoSaveProDoc/images/favicon.png" type="image/png">
+
+    <title>反代配置 :: 天翼自动转存文档</title>
+
+    
+    <link href="/Cloud189AutoSaveProDoc/css/nucleus.css?1749304262" rel="stylesheet">
+    <link href="/Cloud189AutoSaveProDoc/css/fontawesome-all.min.css?1749304262" rel="stylesheet">
+    <link href="/Cloud189AutoSaveProDoc/css/hybrid.css?1749304262" rel="stylesheet">
+    <link href="/Cloud189AutoSaveProDoc/css/featherlight.min.css?1749304262" rel="stylesheet">
+    <link href="/Cloud189AutoSaveProDoc/css/perfect-scrollbar.min.css?1749304262" rel="stylesheet">
+    <link href="/Cloud189AutoSaveProDoc/css/auto-complete.css?1749304262" rel="stylesheet">
+    <link href="/Cloud189AutoSaveProDoc/css/atom-one-dark-reasonable.css?1749304262" rel="stylesheet">
+    <link href="/Cloud189AutoSaveProDoc/css/theme.css?1749304262" rel="stylesheet">
+    <link href="/Cloud189AutoSaveProDoc/css/tabs.css?1749304262" rel="stylesheet">
+    <link href="/Cloud189AutoSaveProDoc/css/hugo-theme.css?1749304262" rel="stylesheet">
+    
+    <link href="/Cloud189AutoSaveProDoc/css/custom.css?1749304262" rel="stylesheet">
+
+    <script src="/Cloud189AutoSaveProDoc/js/jquery-3.3.1.min.js?1749304262"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/Cloud189AutoSaveProDoc/usage/proxy/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="搜索...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/Cloud189AutoSaveProDoc/js/lunr.min.js?1749304262"></script>
+<script type="text/javascript" src="/Cloud189AutoSaveProDoc/js/auto-complete.js?1749304262"></script>
+<script type="text/javascript">
+    
+        var baseurl = "http:\/\/localhost:1313\/Cloud189AutoSaveProDoc\/";
+    
+</script>
+<script type="text/javascript" src="/Cloud189AutoSaveProDoc/js/search.js?1749304262"></script>
+
+    
+  </div>
+  
+    <section id="homelinks">
+      <ul>
+        <li>
+            <a class="padding" href='/'><i class='fas fa-home'></i> Home</a>
+        </li>
+      </ul>
+    </section>
+  
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/Cloud189AutoSaveProDoc/ready/" title="环境准备" class="dd-item
+        
+        
+        
+        ">
+      <a href="/Cloud189AutoSaveProDoc/ready/">
+          环境准备
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/Cloud189AutoSaveProDoc/installation/" title="安装与部署" class="dd-item
+        
+        
+        
+        ">
+      <a href="/Cloud189AutoSaveProDoc/installation/">
+          安装与部署
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/Cloud189AutoSaveProDoc/upgrade/" title="升级指引" class="dd-item
+        
+        
+        
+        ">
+      <a href="/Cloud189AutoSaveProDoc/upgrade/">
+          升级指引
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/Cloud189AutoSaveProDoc/usage/" title="≡ 使用说明" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="/Cloud189AutoSaveProDoc/usage/">
+          ≡ 使用说明
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Cloud189AutoSaveProDoc/usage/account/" title="账号管理" class="dd-item ">
+        <a href="/Cloud189AutoSaveProDoc/usage/account/">
+        账号管理
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Cloud189AutoSaveProDoc/usage/task/" title="任务管理" class="dd-item ">
+        <a href="/Cloud189AutoSaveProDoc/usage/task/">
+        任务管理
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Cloud189AutoSaveProDoc/usage/config/" title="配置项" class="dd-item ">
+        <a href="/Cloud189AutoSaveProDoc/usage/config/">
+        配置项
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Cloud189AutoSaveProDoc/usage/proxy/" title="反代配置" class="dd-item active">
+        <a href="/Cloud189AutoSaveProDoc/usage/proxy/">
+        反代配置
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Cloud189AutoSaveProDoc/usage/message/" title="消息通知" class="dd-item ">
+        <a href="/Cloud189AutoSaveProDoc/usage/message/">
+        消息通知
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/Cloud189AutoSaveProDoc/advanced/" title="≡ 进阶使用" class="dd-item
+        
+        
+        
+        ">
+      <a href="/Cloud189AutoSaveProDoc/advanced/">
+          ≡ 进阶使用
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Cloud189AutoSaveProDoc/advanced/speed/" title="玄鲸极速" class="dd-item ">
+        <a href="/Cloud189AutoSaveProDoc/advanced/speed/">
+        玄鲸极速
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Cloud189AutoSaveProDoc/advanced/tg/" title="TG机器人" class="dd-item ">
+        <a href="/Cloud189AutoSaveProDoc/advanced/tg/">
+        TG机器人
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Cloud189AutoSaveProDoc/advanced/ai/" title="AI辅助" class="dd-item ">
+        <a href="/Cloud189AutoSaveProDoc/advanced/ai/">
+        AI辅助
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Cloud189AutoSaveProDoc/advanced/regular/" title="正则匹配处理" class="dd-item ">
+        <a href="/Cloud189AutoSaveProDoc/advanced/regular/">
+        正则匹配处理
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/Cloud189AutoSaveProDoc/advanced/cloudsaver/" title="CloudSaver 资源搜索" class="dd-item ">
+        <a href="/Cloud189AutoSaveProDoc/advanced/cloudsaver/">
+        CloudSaver 资源搜索
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/Cloud189AutoSaveProDoc/notes/" title="注意事项" class="dd-item
+        
+        
+        
+        ">
+      <a href="/Cloud189AutoSaveProDoc/notes/">
+          注意事项
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/Cloud189AutoSaveProDoc/faq/" title="常见问题解答 (FAQ)" class="dd-item
+        
+        
+        
+        ">
+      <a href="/Cloud189AutoSaveProDoc/faq/">
+          常见问题解答 (FAQ)
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/Cloud189AutoSaveProDoc/donations/" title="激活码" class="dd-item
+        
+        
+        
+        ">
+      <a href="/Cloud189AutoSaveProDoc/donations/">
+          激活码
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/Cloud189AutoSaveProDoc/'>首页</a> > <a href='/Cloud189AutoSaveProDoc/usage/'>≡ 使用说明</a> > 反代配置
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#一反代功能简介">一、反代功能简介</a></li>
+    <li><a href="#二为什么选择302反代">二、为什么选择302反代？</a>
+      <ul>
+        <li><a href="#传统播放流程无反代">传统播放流程（无反代）</a></li>
+        <li><a href="#302-反代流程推荐">302 反代流程（推荐）</a></li>
+      </ul>
+    </li>
+    <li><a href="#三反代功能特性">三、反代功能特性</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#四使用建议">四、使用建议</a></li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              反代配置
+            </h1>
+          
+
+        
+
+
+<h2 id="一反代功能简介">一、反代功能简介</h2>
+<p>本系统反代功能与 <code>emby2Alist</code> 等工具类似，但更轻量高效，核心功能为 <strong>播放请求拦截与直链返回</strong>，搭配「玄鲸极速」模式可实现免转存直连播放，大幅提升播放体验。</p>
+<h2 id="二为什么选择302反代">二、为什么选择302反代？</h2>
+<h3 id="传统播放流程无反代">传统播放流程（无反代）</h3>
+<div class="mermaid">
+    
+graph LR
+    User((用户)) -->|发起播放请求| Server[业务服务器]
+    Server -->|解析播放地址| Emby[Emby媒体服务器]
+    Emby -->|下载视频流| Download[服务器中转]
+    Download -->|推送视频流| Player((播放器))
+
+  </div>
+<h3 id="302-反代流程推荐">302 反代流程（推荐）</h3>
+<div class="mermaid">
+    
+graph LR
+    User((用户)) -->|发起播放请求| Server[业务服务器]
+    Server -->|302反代拦截| Proxy[反代服务]
+    Proxy -->|解析直链| DirectLink[获取资源直链]
+    DirectLink -->|返回直链| Player((播放器))
+    Player -->|直接拉取| Source[资源]
+
+  </div>
+<h4 id="由此可见302反代的核心优势在于">由此可见，302反代的核心优势在于：</h4>
+<ul>
+<li><strong>资源直链获取</strong>：无需中转，直接获取资源的直链，实现资源的直接播放。</li>
+<li><strong>播放速度快</strong>：无需等待资源转存，直接获取资源的直链，实现资源的直接播放。</li>
+</ul>
+<h2 id="三反代功能特性">三、反代功能特性</h2>
+<h4 id="1-智能兼容模式"><strong>1. 智能兼容模式</strong></h4>
+<ul>
+<li><strong>玄鲸极速模式</strong>：无需任何配置，自动生成优化直链。</li>
+<li><strong>Alist 兼容模式</strong>：若使用 Alist 生成的 STRM 文件，只需确保文件内地址可访问，反代服务自动解析。</li>
+</ul>
+<h4 id="2-灵活路径替换pathmap"><strong>2. 灵活路径替换（pathMap）</strong></h4>
+<p>当资源路径与播放端不匹配时，可通过 pathMap 规则进行替换，格式为 旧路径规则=&gt;新路径规则。</p>
+<p><strong>示例场景：</strong></p>
+<p><strong>场景 1：域名 / 端口替换</strong></p>
+<p><strong>需求</strong>  Alist 访问地址为 http://alist:5244/d，替换为 http://127.0.0.1:3000/d</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">strm</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">pathMap</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="l">alist:5244/d =&gt; 127.0.0.1:3000/d </span><span class="w"> </span><span class="c"># 替换域名和端口</span><span class="w">
+</span></span></span></code></pre></div><p><strong>场景 2：路径前缀去除</strong></p>
+<p><strong>需求：</strong> 去除路径前缀 /remote</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">strm</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">pathMap</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="l">/remote/ =&gt; / </span><span class="w"> </span><span class="c"># 去除路径前缀</span><span class="w">
+</span></span></span></code></pre></div><p>支持配置几多个规则, 例如:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">strm</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">pathMap</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="l">alist:5244/d =&gt; 127.0.0.1:3000/d </span><span class="w"> </span><span class="c"># 替换域名和端口</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="l">/remote/ =&gt; / </span><span class="w"> </span><span class="c"># 去除路径前缀</span><span class="w">
+</span></span></span></code></pre></div><h4 id="3-缓存优化"><strong>3. 缓存优化</strong></h4>
+<p><strong>直链缓存</strong>：通过 redirectCacheTTL 配置直链有效期（默认 50分钟），减少重复解析消耗。</p>
+<h2 id="四使用建议">四、使用建议</h2>
+<ul>
+<li><strong>优先启用玄鲸极速：</strong> 适合新手用户，无需配置即可实现直连。</li>
+<li><strong>复杂路径场景：</strong> 通过 pathMap 解决地址不匹配问题，支持实时生效。</li>
+<li><strong>日志排查：</strong> 开启 debug 日志级别，可快速定位路径替换或直链解析问题。</li>
+</ul>
+<p>通过 302 反代与玄鲸极速的结合，系统可实现 <strong>“零中转带宽消耗”</strong> 的高效播放，尤其适合带宽有限或高并发场景。</p>
+
+
+<footer class="footline">
+	
+</footer>
+
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/Cloud189AutoSaveProDoc/usage/config/" title="配置项"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="/Cloud189AutoSaveProDoc/usage/message/" title="消息通知" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/Cloud189AutoSaveProDoc/js/clipboard.min.js?1749304262"></script>
+    <script src="/Cloud189AutoSaveProDoc/js/perfect-scrollbar.min.js?1749304262"></script>
+    <script src="/Cloud189AutoSaveProDoc/js/perfect-scrollbar.jquery.min.js?1749304262"></script>
+    <script src="/Cloud189AutoSaveProDoc/js/jquery.sticky.js?1749304262"></script>
+    <script src="/Cloud189AutoSaveProDoc/js/featherlight.min.js?1749304262"></script>
+    <script src="/Cloud189AutoSaveProDoc/js/highlight.pack.js?1749304262"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/Cloud189AutoSaveProDoc/js/modernizr.custom-3.6.0.js?1749304262"></script>
+    <script src="/Cloud189AutoSaveProDoc/js/learn.js?1749304262"></script>
+    <script src="/Cloud189AutoSaveProDoc/js/hugo-learn.js?1749304262"></script>
+    
+        
+            <script src="/Cloud189AutoSaveProDoc/mermaid/mermaid.js?1749304262"></script>
+        
+        <script>
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+    
+    
+
+  </body>
+</html>
+
