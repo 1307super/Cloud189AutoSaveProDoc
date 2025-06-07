@@ -29,7 +29,7 @@ menu:
    - 打开浏览器的开发者工具(ctrl + f12)，勾选保留日志
    - 正常发起登录，然后在开发者工具中选择网络(network)
    - 点击家庭共享, 任意点击目录后查看家庭ID
-  {{< figure src="/images/account/family.png" title="家庭ID获取示意图">}}
+  {{< figure src="images/account/family.png" title="家庭ID获取示意图">}}
 
 2. **启用[玄鲸极速](/advanced/speed)模式**：
    - 开启"[玄鲸极速](/advanced/speed)"开关

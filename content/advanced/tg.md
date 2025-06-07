@@ -132,8 +132,8 @@ menu:
 ## 预览图
 
 <div style="display:flex">
-{{< figure src="/images/bot/1.jpg" title="帮助命令">}}
-{{< figure src="/images/bot/5.jpg" title="任务列表">}}
-{{< figure src="/images/bot/2.jpg" title="CloudSaver资源索">}}
-{{< figure src="/images/bot/3.jpg" title="资源转存">}}
+{{< figure src="images/bot/1.jpg" title="帮助命令">}}
+{{< figure src="images/bot/5.jpg" title="任务列表">}}
+{{< figure src="images/bot/2.jpg" title="CloudSaver资源索">}}
+{{< figure src="images/bot/3.jpg" title="资源转存">}}
 </div>

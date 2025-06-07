@@ -4,7 +4,7 @@ weight: 1  # 控制章节顺序
 ---
 
 <div align="center">
-    <img src="/images/logo.png" alt="Logo" width="200">
+    <img src="images/logo.png" alt="Logo" width="200">
     <h2>Cloud189AutoSavePro</h2>
     <p>天翼云盘自动转存系统，支持自动监控更新并转存文件, 支持STRM生成, Emby入库通知, 支持机器人操作。</p>
 </div>

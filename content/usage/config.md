@@ -51,8 +51,8 @@ menu:
 
 
 <div style="width: 100%;margin:0 auto;display: flex;">
-{{< figure src="/images/config/replace1.png" title="任务更新目录示意图">}}
-{{< figure src="/images/config/replace2.png" title="Emby媒体库示意图">}}
+{{< figure src="images/config/replace1.png" title="任务更新目录示意图">}}
+{{< figure src="images/config/replace2.png" title="Emby媒体库示意图">}}
 </div>
 
 

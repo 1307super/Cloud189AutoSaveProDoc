@@ -45,7 +45,7 @@ menu:
 | 结果统计 | 实时显示 `总链接数/成功数/失败数` |
 
 <div style="width: 30%;margin:0 auto">
-{{< figure src="/images/task/batch.png" title="批量任务创建示意图">}}
+{{< figure src="images/task/batch.png" title="批量任务创建示意图">}}
 </div>
 
 ## 任务创建表单
@@ -107,7 +107,7 @@ menu:
    - 在任务列表页，可通过**分组筛选栏**快速切换查看“链接分组”或“批次分组”任务。  
    
    <div style="width: 30%;margin:0 auto">
-   {{< figure src="/images/task/index.png" title="任务分组示意图">}}
+   {{< figure src="images/task/index.png" title="任务分组示意图">}}
    </div>
 
 2. **批量操作**：  

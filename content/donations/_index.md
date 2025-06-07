@@ -25,8 +25,8 @@ weight: 10
 ### 2. 支付方式
 
 <div style="display:flex; width:60%; margin: 0 auto">
-{{< figure src="/images/pay/ali.png" title="支付宝">}}
-{{< figure src="/images/pay/wechat.JPG" title="微信">}}
+{{< figure src="images/pay/ali.png" title="支付宝">}}
+{{< figure src="images/pay/wechat.JPG" title="微信">}}
 </div>
 
 
