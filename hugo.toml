@@ -1,4 +1,4 @@
-baseURL = 'https://1307super.github.io/Cloud189AutoSaveProDoc'
+baseURL = 'https://1307super.github.io/Cloud189AutoSaveProDoc/'
 title = '天翼自动转存文档'
 theme = 'hugo-theme-learn'
 
