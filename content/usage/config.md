@@ -29,8 +29,8 @@ menu:
 文件转存后，系统根据重命名后的文件名**增量生成STRM文件**，用于Emby等媒体服务器识别。  
 
 **配置要点**：  
-- **前置条件**：需在[账号管理](http://localhost:1313/usage/account)中配置“[媒体目录](http://localhost:1313/usage/account)”（如`http://alist:5244/d/天翼云盘`）和“本地目录”（如`/天翼云盘`）。  
-- **玄鲸极速模式**：若启用该模式（[账号管理](http://localhost:1313/usage/account)中开关），系统自动生成反代链接，无需配置STRM媒体路径。  
+- **前置条件**：需在[账号管理](usage/account)中配置“[媒体目录](usage/account)”（如`http://alist:5244/d/天翼云盘`）和“本地目录”（如`/天翼云盘`）。  
+- **玄鲸极速模式**：若启用该模式（[账号管理](usage/account)中开关），系统自动生成反代链接，无需配置STRM媒体路径。  
 - **兼容免费版**：勾选`排除根目录(兼容免费版)`后，生成逻辑与免费版一致（排除根目录路径）。  
 
 ### 3. Emby 设置（302反代与通知）  
@@ -51,8 +51,8 @@ menu:
 
 
 <div style="width: 100%;margin:0 auto;display: flex;">
-{{< figure src="images/config/replace1.png" title="任务更新目录示意图">}}
-{{< figure src="images/config/replace2.png" title="Emby媒体库示意图">}}
+{{< figure src="/Cloud189AutoSaveProDoc/images/config/replace1.png" title="任务更新目录示意图">}}
+{{< figure src="/Cloud189AutoSaveProDoc/images/config/replace2.png" title="Emby媒体库示意图">}}
 </div>
 
 

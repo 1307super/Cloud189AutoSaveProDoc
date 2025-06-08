@@ -20,7 +20,7 @@ CloudSaver 是一个网盘资源搜索工具，本项目集成了 CloudSaver 的
 ### 2. 配置 CloudSaver
 在"媒体"中配置 CloudSaver：
 
-![CloudSaver配置](images/cloudsaver/image.png)
+![CloudSaver配置](/Cloud189AutoSaveProDoc/images/cloudsaver/image.png)
 需要填写以下信息：
 - 服务地址：CloudSaver 的访问地址，例如 `http://localhost:8008`
 - 账号：CloudSaver 的登录账号
@@ -38,7 +38,7 @@ CloudSaver 是一个网盘资源搜索工具，本项目集成了 CloudSaver 的
    - 复制分享链接
    - 一键创建转存任务
 
-{{< figure src="images/cloudsaver/cloudsaver.png" title="CloudSaver配置">}}
+{{< figure src="/Cloud189AutoSaveProDoc/images/cloudsaver/cloudsaver.png" title="CloudSaver配置">}}
 
 ### 2. Telegram 机器人搜索
 
@@ -51,8 +51,8 @@ CloudSaver 是一个网盘资源搜索工具，本项目集成了 CloudSaver 的
    - 也可以等待 3 分钟自动退出
 
 <div style="display:flex">
-{{< figure src="images/bot/2.jpg" title="CloudSaver资源索">}}
-{{< figure src="images/bot/3.jpg" title="资源转存">}}
+{{< figure src="/Cloud189AutoSaveProDoc/images/bot/2.jpg" title="CloudSaver资源索">}}
+{{< figure src="/Cloud189AutoSaveProDoc/images/bot/3.jpg" title="资源转存">}}
 </div>
 
 ## 搜索技巧

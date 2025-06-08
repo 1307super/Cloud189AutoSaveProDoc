@@ -51,7 +51,7 @@ weight: 9  # 控制章节顺序
 **问题**：如何使用正则匹配？如何批量重命名？
 
 **解决方案**：
-请参考 [正则处理教程](/advanced/regular)，包含：
+请参考 [正则处理教程](advanced/regular)，包含：
 - 正则表达式使用方法
 - 批量重命名操作步骤
 - 常见正则示例
@@ -60,7 +60,7 @@ weight: 9  # 控制章节顺序
 **问题**：STRM 路径配置错误或 Emby 通知失败。
 
 **解决方案**：
-请参考 [STRM 与 Emby 教程](http://localhost:1313/usage/config/#2-strm-设置)，包含：
+请参考 [STRM 与 Emby 教程](usage/config/#2-strm-设置)，包含：
 - STRM 路径配置说明
 - Emby 通知设置方法
 - 常见错误排查

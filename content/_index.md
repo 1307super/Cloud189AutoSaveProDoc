@@ -28,18 +28,18 @@ weight: 1  # 控制章节顺序
 ## 🔧 安装
 <div class="feature-cards">
 
-{{< card "/ready/" >}}
+{{< card "ready/" >}}
 环境准备 |  了解系统要求和前置条件
 {{< /card >}}
 
 
-{{< card "/installation/" >}}
+{{< card "installation/" >}}
 
 安装指引 |  一步步指导完成安装
 
 {{< /card >}}
 
-{{< card "/upgrade/" >}}
+{{< card "upgrade/" >}}
 
 升级指引 |  从旧版本升级到最新版
 {{< /card >}}

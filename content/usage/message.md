@@ -36,8 +36,8 @@ URL: https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=xxxxxxxx-xxxx-xxxx-xxx
 ```
 
 <div style="width: 100%;margin:0 auto;display: flex;">
-{{< figure src="images/message/index.png" title="自定义消息通知示意图">}}
-{{< figure src="images/message/form.png" title="自定义消息通知添加示意图">}}
+{{< figure src="/Cloud189AutoSaveProDoc/images/message/index.png" title="自定义消息通知示意图">}}
+{{< figure src="/Cloud189AutoSaveProDoc/images/message/form.png" title="自定义消息通知添加示意图">}}
 </div>
 
 

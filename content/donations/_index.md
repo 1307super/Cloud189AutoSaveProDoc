@@ -20,13 +20,13 @@ weight: 10
 - **远程部署服务**：**188元（含激活码）**  
   作者1对1远程部署，适配服务器环境，全程无忧启动，适合技术零基础用户。
 
-**⚠️ 价格动态调整**：随着功能持续迭代升级，后续价格将逐步上调(可能)，当前为历史最低优惠价！
+**⚠️ 价格动态调整**：随着功能持续迭代升级，后续价格将逐步上调(可能吧)，当前为历史最低优惠价！
 
 ### 2. 支付方式
 
 <div style="display:flex; width:60%; margin: 0 auto">
-{{< figure src="images/pay/ali.png" title="支付宝">}}
-{{< figure src="images/pay/wechat.JPG" title="微信">}}
+{{< figure src="/Cloud189AutoSaveProDoc/images/pay/ali.png" title="支付宝">}}
+{{< figure src="/Cloud189AutoSaveProDoc/images/pay/wechat.JPG" title="微信">}}
 </div>
 
 
