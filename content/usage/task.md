@@ -45,7 +45,7 @@ menu:
 | 结果统计 | 实时显示 `总链接数/成功数/失败数` |
 
 <div style="width: 30%;margin:0 auto">
-{{< figure src="images/task/batch.png" title="批量任务创建示意图">}}
+{{< figure src="/Cloud189AutoSaveProDoc/images/task/batch.png" title="批量任务创建示意图">}}
 </div>
 
 ## 任务创建表单
