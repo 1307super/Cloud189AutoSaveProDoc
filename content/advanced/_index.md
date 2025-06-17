@@ -36,4 +36,9 @@ AI辅助 |  智能识别各种复杂的文件命名格式
 CloudSaver |   TG网盘资源搜索神器
 {{< /card >}}
 
+{{< card "/Cloud189AutoSaveProDoc/advanced/webdav/" >}}
+WebDAV |   青春版WebDAV
+{{< /card >}}
+
+
 </div>
